@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MinhHaiShop.Common\MinhHaiShop.Common.csproj" />
+    <ProjectReference Include="..\MinhHaiShop.Data\MinhHaiShop.Data.csproj" />
+    <ProjectReference Include="..\MinhHaiShop.Model\MinhHaiShop.Model.csproj" />
+  </ItemGroup>
+
+</Project>

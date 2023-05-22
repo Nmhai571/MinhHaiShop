@@ -1,0 +1,12 @@
+D:\C#\MinhHaiShop\MinhHaiShop.Common\bin\Debug\net6.0\MinhHaiShop.Common.deps.json
+D:\C#\MinhHaiShop\MinhHaiShop.Common\bin\Debug\net6.0\MinhHaiShop.Common.dll
+D:\C#\MinhHaiShop\MinhHaiShop.Common\bin\Debug\net6.0\MinhHaiShop.Common.pdb
+D:\C#\MinhHaiShop\MinhHaiShop.Common\obj\Debug\net6.0\MinhHaiShop.Common.csproj.AssemblyReference.cache
+D:\C#\MinhHaiShop\MinhHaiShop.Common\obj\Debug\net6.0\MinhHaiShop.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\MinhHaiShop\MinhHaiShop.Common\obj\Debug\net6.0\MinhHaiShop.Common.AssemblyInfoInputs.cache
+D:\C#\MinhHaiShop\MinhHaiShop.Common\obj\Debug\net6.0\MinhHaiShop.Common.AssemblyInfo.cs
+D:\C#\MinhHaiShop\MinhHaiShop.Common\obj\Debug\net6.0\MinhHaiShop.Common.csproj.CoreCompileInputs.cache
+D:\C#\MinhHaiShop\MinhHaiShop.Common\obj\Debug\net6.0\MinhHaiShop.Common.dll
+D:\C#\MinhHaiShop\MinhHaiShop.Common\obj\Debug\net6.0\refint\MinhHaiShop.Common.dll
+D:\C#\MinhHaiShop\MinhHaiShop.Common\obj\Debug\net6.0\MinhHaiShop.Common.pdb
+D:\C#\MinhHaiShop\MinhHaiShop.Common\obj\Debug\net6.0\ref\MinhHaiShop.Common.dll

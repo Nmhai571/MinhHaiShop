@@ -1,0 +1,12 @@
+D:\C#\MinhHaiShop\MinhHaiShop.Model\bin\Debug\net6.0\MinhHaiShop.Model.deps.json
+D:\C#\MinhHaiShop\MinhHaiShop.Model\bin\Debug\net6.0\MinhHaiShop.Model.dll
+D:\C#\MinhHaiShop\MinhHaiShop.Model\bin\Debug\net6.0\MinhHaiShop.Model.pdb
+D:\C#\MinhHaiShop\MinhHaiShop.Model\obj\Debug\net6.0\MinhHaiShop.Model.csproj.AssemblyReference.cache
+D:\C#\MinhHaiShop\MinhHaiShop.Model\obj\Debug\net6.0\MinhHaiShop.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\MinhHaiShop\MinhHaiShop.Model\obj\Debug\net6.0\MinhHaiShop.Model.AssemblyInfoInputs.cache
+D:\C#\MinhHaiShop\MinhHaiShop.Model\obj\Debug\net6.0\MinhHaiShop.Model.AssemblyInfo.cs
+D:\C#\MinhHaiShop\MinhHaiShop.Model\obj\Debug\net6.0\MinhHaiShop.Model.csproj.CoreCompileInputs.cache
+D:\C#\MinhHaiShop\MinhHaiShop.Model\obj\Debug\net6.0\MinhHaiShop.Model.dll
+D:\C#\MinhHaiShop\MinhHaiShop.Model\obj\Debug\net6.0\refint\MinhHaiShop.Model.dll
+D:\C#\MinhHaiShop\MinhHaiShop.Model\obj\Debug\net6.0\MinhHaiShop.Model.pdb
+D:\C#\MinhHaiShop\MinhHaiShop.Model\obj\Debug\net6.0\ref\MinhHaiShop.Model.dll

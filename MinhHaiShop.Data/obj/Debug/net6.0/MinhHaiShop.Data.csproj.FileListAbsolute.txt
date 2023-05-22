@@ -1,0 +1,15 @@
+D:\C#\MinhHaiShop\MinhHaiShop.Data\bin\Debug\net6.0\MinhHaiShop.Data.deps.json
+D:\C#\MinhHaiShop\MinhHaiShop.Data\bin\Debug\net6.0\MinhHaiShop.Data.dll
+D:\C#\MinhHaiShop\MinhHaiShop.Data\bin\Debug\net6.0\MinhHaiShop.Data.pdb
+D:\C#\MinhHaiShop\MinhHaiShop.Data\bin\Debug\net6.0\MinhHaiShop.Common.dll
+D:\C#\MinhHaiShop\MinhHaiShop.Data\bin\Debug\net6.0\MinhHaiShop.Common.pdb
+D:\C#\MinhHaiShop\MinhHaiShop.Data\obj\Debug\net6.0\MinhHaiShop.Data.csproj.AssemblyReference.cache
+D:\C#\MinhHaiShop\MinhHaiShop.Data\obj\Debug\net6.0\MinhHaiShop.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\MinhHaiShop\MinhHaiShop.Data\obj\Debug\net6.0\MinhHaiShop.Data.AssemblyInfoInputs.cache
+D:\C#\MinhHaiShop\MinhHaiShop.Data\obj\Debug\net6.0\MinhHaiShop.Data.AssemblyInfo.cs
+D:\C#\MinhHaiShop\MinhHaiShop.Data\obj\Debug\net6.0\MinhHaiShop.Data.csproj.CoreCompileInputs.cache
+D:\C#\MinhHaiShop\MinhHaiShop.Data\obj\Debug\net6.0\MinhHaiShop.Data.csproj.CopyComplete
+D:\C#\MinhHaiShop\MinhHaiShop.Data\obj\Debug\net6.0\MinhHaiShop.Data.dll
+D:\C#\MinhHaiShop\MinhHaiShop.Data\obj\Debug\net6.0\refint\MinhHaiShop.Data.dll
+D:\C#\MinhHaiShop\MinhHaiShop.Data\obj\Debug\net6.0\MinhHaiShop.Data.pdb
+D:\C#\MinhHaiShop\MinhHaiShop.Data\obj\Debug\net6.0\ref\MinhHaiShop.Data.dll
