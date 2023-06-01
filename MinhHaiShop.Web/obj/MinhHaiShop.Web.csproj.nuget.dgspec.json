@@ -85,6 +85,9 @@
             "projectReferences": {
               "D:\\C#\\MinhHaiShop\\MinhHaiShop.Common\\MinhHaiShop.Common.csproj": {
                 "projectPath": "D:\\C#\\MinhHaiShop\\MinhHaiShop.Common\\MinhHaiShop.Common.csproj"
+              },
+              "D:\\C#\\MinhHaiShop\\MinhHaiShop.Model\\MinhHaiShop.Model.csproj": {
+                "projectPath": "D:\\C#\\MinhHaiShop\\MinhHaiShop.Model\\MinhHaiShop.Model.csproj"
               }
             }
           }
@@ -100,6 +103,10 @@
           "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.0, )"
             }
@@ -276,12 +283,6 @@
             "projectReferences": {
               "D:\\C#\\MinhHaiShop\\MinhHaiShop.Common\\MinhHaiShop.Common.csproj": {
                 "projectPath": "D:\\C#\\MinhHaiShop\\MinhHaiShop.Common\\MinhHaiShop.Common.csproj"
-              },
-              "D:\\C#\\MinhHaiShop\\MinhHaiShop.Data\\MinhHaiShop.Data.csproj": {
-                "projectPath": "D:\\C#\\MinhHaiShop\\MinhHaiShop.Data\\MinhHaiShop.Data.csproj"
-              },
-              "D:\\C#\\MinhHaiShop\\MinhHaiShop.Model\\MinhHaiShop.Model.csproj": {
-                "projectPath": "D:\\C#\\MinhHaiShop\\MinhHaiShop.Model\\MinhHaiShop.Model.csproj"
               },
               "D:\\C#\\MinhHaiShop\\MinhHaiShop.Service\\MinhHaiShop.Service.csproj": {
                 "projectPath": "D:\\C#\\MinhHaiShop\\MinhHaiShop.Service\\MinhHaiShop.Service.csproj"

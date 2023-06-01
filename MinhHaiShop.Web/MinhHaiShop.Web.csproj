@@ -12,8 +12,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MinhHaiShop.Common\MinhHaiShop.Common.csproj" />
-    <ProjectReference Include="..\MinhHaiShop.Data\MinhHaiShop.Data.csproj" />
-    <ProjectReference Include="..\MinhHaiShop.Model\MinhHaiShop.Model.csproj" />
     <ProjectReference Include="..\MinhHaiShop.Service\MinhHaiShop.Service.csproj" />
   </ItemGroup>
 
