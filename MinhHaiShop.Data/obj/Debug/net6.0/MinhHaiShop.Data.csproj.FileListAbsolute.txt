@@ -15,3 +15,5 @@ D:\C#\MinhHaiShop\MinhHaiShop.Data\obj\Debug\net6.0\MinhHaiShop.Data.pdb
 D:\C#\MinhHaiShop\MinhHaiShop.Data\obj\Debug\net6.0\ref\MinhHaiShop.Data.dll
 D:\C#\MinhHaiShop\MinhHaiShop.Data\bin\Debug\net6.0\MinhHaiShop.Model.dll
 D:\C#\MinhHaiShop\MinhHaiShop.Data\bin\Debug\net6.0\MinhHaiShop.Model.pdb
+D:\C#\MinhHaiShop\MinhHaiShop.Data\bin\Debug\net6.0\MinhHaiShop.Data.runtimeconfig.json
+D:\C#\MinhHaiShop\MinhHaiShop.Data\obj\Debug\net6.0\MinhHaiShop.Data.genruntimeconfig.cache

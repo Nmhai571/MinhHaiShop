@@ -1,5 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using MinhHaiShop.Model.Models;
+
+
 namespace MinhHaiShop.Data
 {
     public class MinhHaiShopDbContext : DbContext
@@ -30,5 +32,13 @@ namespace MinhHaiShop.Data
         public DbSet<SystemConfig> SystemConfigs { get; set; }
         public DbSet<Tag> Tags { get; set; }
         public DbSet<VisitorStatistic> VisitorStatistics { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<OrderDetail>().HasKey(x => new { x.OrderID, x.ProductID });
+            modelBuilder.Entity<PostTag>().HasKey(x => new { x.TagID, x.PostID });
+            modelBuilder.Entity<ProductTag>().HasKey(x => new { x.TagID, x.ProductID });
+
+        }
     }
 }

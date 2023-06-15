@@ -11,11 +11,11 @@ namespace MinhHaiShop.Model.Models
     [Table("ProductTags")]
     public class ProductTag
     {
-        [Key]
+
         [Column(Order = 1)]
         public int ProductID { set; get; }
 
-        [Key]
+
         [Column(TypeName = "varchar", Order = 2)]
         [MaxLength(50)]
         public string TagID { set; get; }

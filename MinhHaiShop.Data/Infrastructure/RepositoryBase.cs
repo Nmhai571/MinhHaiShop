@@ -16,6 +16,13 @@ namespace MinhHaiShop.Data.Infrastructure
         {
             dataContext = context;
         }
+
+        //auto generate
+        protected RepositoryBase(IDbFactory dbFactory)
+        {
+            DbFactory = dbFactory;
+        }
+
         protected IDbFactory DbFactory
         {
             get;
