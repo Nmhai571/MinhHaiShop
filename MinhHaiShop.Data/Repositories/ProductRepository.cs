@@ -3,7 +3,7 @@ using MinhHaiShop.Model.Models;
 
 namespace MinhHaiShop.Data.Repositories
 {
-    public interface IProductRepository
+    public interface IProductRepository : IRepository<Product>
     {
 
     }

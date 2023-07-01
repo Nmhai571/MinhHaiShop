@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace MinhHaiShop.Data.Repositories
 {
-    public  interface IPostCategotyRepository { }
+    public  interface IPostCategotyRepository : IRepository<PostCategory> { }
     public  class PostCategoryRepository : RepositoryBase<PostCategory>, IPostCategotyRepository
     {
         public PostCategoryRepository(IDbFactory dbFactory) : base(dbFactory) { }
