@@ -11,7 +11,7 @@ namespace MinhHaiShop.Service
 {
     public interface IPosstCategoryService
     {
-        void Add(PostCategory postCategory);
+        PostCategory Add(PostCategory postCategory);
 
         void Update(PostCategory postCategory);
 
@@ -23,7 +23,7 @@ namespace MinhHaiShop.Service
 
         PostCategory GetById(int id);
 
-        void Save();
+        void SaveChanges();
     }
     public class PostCategoryService : IPosstCategoryService
     {
@@ -35,9 +35,9 @@ namespace MinhHaiShop.Service
             _postCategoryRepository = postCategotyRepository;
             _unitOfWork = unitOfWork;
         }
-        public void Add(PostCategory postCategory)
+        public PostCategory Add(PostCategory postCategory)
         {
-            _postCategoryRepository.Add(postCategory);
+            return _postCategoryRepository.Create(postCategory);
         }
 
         public void Delete(int id)
@@ -60,7 +60,7 @@ namespace MinhHaiShop.Service
             return _postCategoryRepository.GetSingleById(id);
         }
 
-        public void Save()
+        public void SaveChanges()
         {
             _unitOfWork.Commit();
         }

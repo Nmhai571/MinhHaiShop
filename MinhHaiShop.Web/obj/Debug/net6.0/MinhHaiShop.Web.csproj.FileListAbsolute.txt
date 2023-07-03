@@ -22,8 +22,6 @@ D:\C#\MinhHaiShop\MinhHaiShop.Web\obj\Debug\net6.0\MinhHaiShop.Web.AssemblyInfoI
 D:\C#\MinhHaiShop\MinhHaiShop.Web\obj\Debug\net6.0\MinhHaiShop.Web.AssemblyInfo.cs
 D:\C#\MinhHaiShop\MinhHaiShop.Web\obj\Debug\net6.0\MinhHaiShop.Web.csproj.CoreCompileInputs.cache
 D:\C#\MinhHaiShop\MinhHaiShop.Web\obj\Debug\net6.0\MinhHaiShop.Web.MvcApplicationPartsAssemblyInfo.cache
-D:\C#\MinhHaiShop\MinhHaiShop.Web\obj\Debug\net6.0\MinhHaiShop.Web.RazorAssemblyInfo.cache
-D:\C#\MinhHaiShop\MinhHaiShop.Web\obj\Debug\net6.0\MinhHaiShop.Web.RazorAssemblyInfo.cs
 D:\C#\MinhHaiShop\MinhHaiShop.Web\obj\Debug\net6.0\staticwebassets\msbuild.MinhHaiShop.Web.Microsoft.AspNetCore.StaticWebAssets.props
 D:\C#\MinhHaiShop\MinhHaiShop.Web\obj\Debug\net6.0\staticwebassets\msbuild.build.MinhHaiShop.Web.props
 D:\C#\MinhHaiShop\MinhHaiShop.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.MinhHaiShop.Web.props
@@ -31,9 +29,7 @@ D:\C#\MinhHaiShop\MinhHaiShop.Web\obj\Debug\net6.0\staticwebassets\msbuild.build
 D:\C#\MinhHaiShop\MinhHaiShop.Web\obj\Debug\net6.0\staticwebassets.pack.json
 D:\C#\MinhHaiShop\MinhHaiShop.Web\obj\Debug\net6.0\staticwebassets.build.json
 D:\C#\MinhHaiShop\MinhHaiShop.Web\obj\Debug\net6.0\staticwebassets.development.json
-D:\C#\MinhHaiShop\MinhHaiShop.Web\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\C#\MinhHaiShop\MinhHaiShop.Web\obj\Debug\net6.0\scopedcss\bundle\MinhHaiShop.Web.styles.css
-D:\C#\MinhHaiShop\MinhHaiShop.Web\obj\Debug\net6.0\scopedcss\projectbundle\MinhHaiShop.Web.bundle.scp.css
 D:\C#\MinhHaiShop\MinhHaiShop.Web\obj\Debug\net6.0\MinhHaiShop.Web.csproj.CopyComplete
 D:\C#\MinhHaiShop\MinhHaiShop.Web\obj\Debug\net6.0\MinhHaiShop.Web.dll
 D:\C#\MinhHaiShop\MinhHaiShop.Web\obj\Debug\net6.0\refint\MinhHaiShop.Web.dll

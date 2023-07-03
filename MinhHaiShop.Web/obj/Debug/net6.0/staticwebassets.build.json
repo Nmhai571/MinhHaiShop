@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yXB+Biu+sWKtyhvBzTdDn2aHYCAtskjbMROwCC+Dis8=",
+  "Hash": "zdL0a7k1jlCzPtfOxYU/95JKq1KlV9qR6PL4PXJ2z2Q=",
   "Source": "MinhHaiShop.Web",
   "BasePath": "_content/MinhHaiShop.Web",
   "Mode": "Default",
@@ -16,40 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "D:\\C#\\MinhHaiShop\\MinhHaiShop.Web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\MinhHaiShop.Web.styles.css",
-      "SourceId": "MinhHaiShop.Web",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\C#\\MinhHaiShop\\MinhHaiShop.Web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/MinhHaiShop.Web",
-      "RelativePath": "MinhHaiShop.Web.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\C#\\MinhHaiShop\\MinhHaiShop.Web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\MinhHaiShop.Web.styles.css"
-    },
-    {
-      "Identity": "D:\\C#\\MinhHaiShop\\MinhHaiShop.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MinhHaiShop.Web.bundle.scp.css",
-      "SourceId": "MinhHaiShop.Web",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\C#\\MinhHaiShop\\MinhHaiShop.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/MinhHaiShop.Web",
-      "RelativePath": "MinhHaiShop.Web.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\C#\\MinhHaiShop\\MinhHaiShop.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MinhHaiShop.Web.bundle.scp.css"
-    },
     {
       "Identity": "D:\\C#\\MinhHaiShop\\MinhHaiShop.Web\\wwwroot\\css\\site.css",
       "SourceId": "MinhHaiShop.Web",

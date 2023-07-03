@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "D:\\C#\\MinhHaiShop\\MinhHaiShop.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MinhHaiShop.Web.bundle.scp.css",
-      "PackagePath": "staticwebassets\\MinhHaiShop.Web.bundle.scp.css"
-    },
-    {
       "Id": "D:\\C#\\MinhHaiShop\\MinhHaiShop.Web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

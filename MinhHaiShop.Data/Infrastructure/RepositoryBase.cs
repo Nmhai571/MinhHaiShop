@@ -153,5 +153,10 @@ namespace MinhHaiShop.Data.Infrastructure
             return dataContext.Set<T>().Count<T>(predicate) > 0;
         }
         public void Commit() { dataContext.SaveChangesAsync(); }
+
+        public virtual T Create(T entity)
+        {
+            return dataContext.Set<T>().Add(entity).Entity;
+        }
     }
 }

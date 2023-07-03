@@ -19,4 +19,11 @@
     <ProjectReference Include="..\MinhHaiShop.Service\MinhHaiShop.Service.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Assets\Admin\" />
+    <Folder Include="Assets\Client\" />
+    <Folder Include="Infrastructure\Extensions\" />
+    <Folder Include="Views\" />
+  </ItemGroup>
+
 </Project>

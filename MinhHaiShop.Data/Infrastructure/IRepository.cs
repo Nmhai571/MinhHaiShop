@@ -11,6 +11,7 @@ namespace MinhHaiShop.Data.Infrastructure
     {
         // Marks an entity as new
         void Add(T entity);
+        T Create(T entity);
 
         // Marks an entity as modified
         void Update(T entity);
