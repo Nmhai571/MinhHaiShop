@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MinhHaiShop.Data.Infrastructure
 {
-    internal class UnitOfWork : IUnitOfWork
+    public class UnitOfWork : IUnitOfWork
     {
         private readonly IDbFactory _dbFactory;
         private MinhHaiShopDbContext _context;

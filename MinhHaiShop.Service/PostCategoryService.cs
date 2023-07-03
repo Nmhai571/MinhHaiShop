@@ -1,15 +1,10 @@
 ﻿using MinhHaiShop.Data.Infrastructure;
 using MinhHaiShop.Data.Repositories;
 using MinhHaiShop.Model.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MinhHaiShop.Service
 {
-    public interface IPosstCategoryService
+    public interface IPostCategoryService
     {
         PostCategory Add(PostCategory postCategory);
 
@@ -25,7 +20,7 @@ namespace MinhHaiShop.Service
 
         void SaveChanges();
     }
-    public class PostCategoryService : IPosstCategoryService
+    public class PostCategoryService : IPostCategoryService
     {
         IPostCategotyRepository _postCategoryRepository;
         IUnitOfWork _unitOfWork;

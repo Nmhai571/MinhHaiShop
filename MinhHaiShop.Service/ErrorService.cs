@@ -16,8 +16,8 @@ namespace MinhHaiShop.Service
     }
     public class ErrorService : IErrorService
     {
-        IErrorRepository _errorRepository;
-        IUnitOfWork _unitOfWork;
+        private readonly IErrorRepository _errorRepository;
+        private readonly IUnitOfWork _unitOfWork;
 
         public ErrorService(IErrorRepository errorRepository, IUnitOfWork unitOfWork)
         {
