@@ -1,10 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using MinhHaiShop.Model.Models;
 
 
 namespace MinhHaiShop.Data
 {
-    public class MinhHaiShopDbContext : DbContext
+    public class MinhHaiShopDbContext : IdentityDbContext<ApplicationUser>
     {
         public MinhHaiShopDbContext(DbContextOptions options) : base(options)
         {
@@ -34,12 +35,12 @@ namespace MinhHaiShop.Data
         public DbSet<VisitorStatistic> VisitorStatistics { get; set; }
         public DbSet<Error> Errors { get; set; }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        protected override void OnModelCreating(ModelBuilder modelBuilder) 
         {
             modelBuilder.Entity<OrderDetail>().HasKey(x => new { x.OrderID, x.ProductID });
             modelBuilder.Entity<PostTag>().HasKey(x => new { x.TagID, x.PostID });
             modelBuilder.Entity<ProductTag>().HasKey(x => new { x.TagID, x.ProductID });
-
+            base.OnModelCreating(modelBuilder);
         }
     }
 }

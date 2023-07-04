@@ -1,6 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using MinhHaiShop.Model.Models;
 
 namespace MinhHaiShop.Data
 {
@@ -13,6 +15,7 @@ namespace MinhHaiShop.Data
                 /*.RegisterServices()*/;
             return services;
         }
+
 
         private static IServiceCollection RegisterServices(this IServiceCollection services)
         {
