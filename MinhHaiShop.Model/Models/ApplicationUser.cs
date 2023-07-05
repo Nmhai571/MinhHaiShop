@@ -8,6 +8,9 @@ namespace MinhHaiShop.Model.Models
         [MaxLength(256)]
         public string FullName { set; get; }
 
+        [Required]
+        public string Password { get; set; }
+
         [MaxLength(256)]
         public string Address { set; get; }
 
