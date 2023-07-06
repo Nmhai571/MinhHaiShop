@@ -15,7 +15,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddInfrastructure(builder.Configuration);
 
-/*builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
 {
     // Default Password settings.
     options.Password.RequireDigit = false;
@@ -28,18 +28,22 @@ builder.Services.AddInfrastructure(builder.Configuration);
     options.User.RequireUniqueEmail = true;
 })
       .AddEntityFrameworkStores<MinhHaiShopDbContext>()
-      .AddDefaultTokenProviders();*/
+      .AddDefaultTokenProviders();
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IDbFactory, DbFactory>();
 builder.Services.AddScoped<IErrorRepository, ErrorRepository>();
+builder.Services.AddScoped<IAccountRepository, AccountRepository>();
+builder.Services.AddScoped<IPostCategotyRepository, PostCategoryRepository>();
+
 builder.Services.AddScoped<IErrorService, ErrorService>();
 builder.Services.AddScoped<IPostCategoryService, PostCategoryService>();
-builder.Services.AddScoped<IPostCategotyRepository, PostCategoryRepository>();
+builder.Services.AddScoped<IAccountService, AccountService>();
+
 builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddAutoMapper(typeof(AutoMapperConfiguration));
-builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
-    .AddEntityFrameworkStores<MinhHaiShopDbContext>().AddDefaultTokenProviders();
+/*builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
+    .AddEntityFrameworkStores<MinhHaiShopDbContext>().AddDefaultTokenProviders();*/
 
 builder.Services.AddAuthentication(options =>
 {
@@ -59,6 +63,8 @@ builder.Services.AddAuthentication(options =>
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JWT:SecretKey"]))
     };
 });
+
+builder.Services.AddSwaggerGen();
 var app = builder.Build();
 
 
@@ -75,7 +81,17 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
-/*app.UseAuthentication();*/
+app.UseAuthentication();
+
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI(options =>
+    {
+        options.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
+        //options.RoutePrefix = string.Empty;
+    });
+}
 
 app.MapControllerRoute(
     name: "default",

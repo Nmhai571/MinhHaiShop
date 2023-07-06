@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MinhHaiShop.Data.Infrastructure
+﻿namespace MinhHaiShop.Data.Infrastructure
 {
     public class Disposable : IDisposable
     {

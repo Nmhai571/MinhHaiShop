@@ -16,11 +16,12 @@ namespace MinhHaiShop.Web.API
             _accountService = accountService;
         }
 
-        [HttpPost("SignUp")]
-        public async Task<IActionResult> SignUp(ApplicationUser applicationUser)
+        [HttpPost]
+        [Route("SignUp")]
+        public async Task<IActionResult> SignUp(SignUp signUpViewModel)
         {
-            var result = await _accountService.SignupAsync(applicationUser);
-            if (result.Succeeded)
+            var result = await _accountService.SignupAsync(signUpViewModel);
+            if (result.Succeeded)   
             {
                 return Ok(result.Succeeded);
             }
@@ -28,10 +29,11 @@ namespace MinhHaiShop.Web.API
             return Unauthorized();
         }
 
-        [HttpPost("SignIn")]
-        public async Task<IActionResult> SignIn(SignInViewModel signInViewModel)
+        [HttpPost]
+        [Route("SignIn")]
+        public async Task<IActionResult> SignIn(SignIn signInViewModel)
         {
-            var result = await _accountService.SignInAsync(Mapper.Map<ApplicationUser>(signInViewModel));
+            var result = await _accountService.SignInAsync(signInViewModel);
 
             if (string.IsNullOrEmpty(result))
             {

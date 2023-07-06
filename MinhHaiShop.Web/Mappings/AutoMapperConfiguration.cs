@@ -14,6 +14,7 @@ namespace MinhHaiShop.Web.Mappings
             CreateMap<PostTag, PostTagViewModel>().ReverseMap().ReverseMap();
             CreateMap<Tag, TagViewModel>().ReverseMap().ReverseMap();
             CreateMap<ApplicationUser, SignInViewModel>().ReverseMap().ReverseMap();
+            CreateMap<ApplicationUser, SignUpViewModel>().ReverseMap().ReverseMap();
         }
         
     }
