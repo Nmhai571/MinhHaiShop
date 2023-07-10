@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinhHaiShop.UnitTest", "MinhHaiShop.UnitTest\MinhHaiShop.UnitTest.csproj", "{46FCA9D5-BA59-4BAB-B805-1ACB73076D54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinhHaiShop.UnitTest", "MinhHaiShop.UnitTest\MinhHaiShop.UnitTest.csproj", "{46FCA9D5-BA59-4BAB-B805-1ACB73076D54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinhHaiShop.Web", "MinhHaiShop.Web\MinhHaiShop.Web.csproj", "{B2792036-E044-49DF-A71E-E30B0E4186D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinhHaiShop.Common", "MinhHaiShop.Common\MinhHaiShop.Common.csproj", "{C68DC7BE-93B3-4283-884A-011DCF3664F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinhHaiShop.Common", "MinhHaiShop.Common\MinhHaiShop.Common.csproj", "{C68DC7BE-93B3-4283-884A-011DCF3664F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinhHaiShop.Model", "MinhHaiShop.Model\MinhHaiShop.Model.csproj", "{0D952BC0-1D55-4674-887D-A0854F7E91AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinhHaiShop.Model", "MinhHaiShop.Model\MinhHaiShop.Model.csproj", "{0D952BC0-1D55-4674-887D-A0854F7E91AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinhHaiShop.Data", "MinhHaiShop.Data\MinhHaiShop.Data.csproj", "{63D0DBEB-5FFA-4F59-AF22-5753584DB725}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinhHaiShop.Data", "MinhHaiShop.Data\MinhHaiShop.Data.csproj", "{63D0DBEB-5FFA-4F59-AF22-5753584DB725}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinhHaiShop.Service", "MinhHaiShop.Service\MinhHaiShop.Service.csproj", "{1F11D46A-AEED-4EB0-A7C0-B9A48BCEDD91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinhHaiShop.Service", "MinhHaiShop.Service\MinhHaiShop.Service.csproj", "{1F11D46A-AEED-4EB0-A7C0-B9A48BCEDD91}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinhHaiShop.Api", "MinhHaiShop.Api\MinhHaiShop.Api.csproj", "{2538A57E-B2CA-45E1-8C70-8CDE59DCA4D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +25,6 @@ Global
 		{46FCA9D5-BA59-4BAB-B805-1ACB73076D54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46FCA9D5-BA59-4BAB-B805-1ACB73076D54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46FCA9D5-BA59-4BAB-B805-1ACB73076D54}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B2792036-E044-49DF-A71E-E30B0E4186D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B2792036-E044-49DF-A71E-E30B0E4186D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B2792036-E044-49DF-A71E-E30B0E4186D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B2792036-E044-49DF-A71E-E30B0E4186D2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C68DC7BE-93B3-4283-884A-011DCF3664F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C68DC7BE-93B3-4283-884A-011DCF3664F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C68DC7BE-93B3-4283-884A-011DCF3664F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +41,10 @@ Global
 		{1F11D46A-AEED-4EB0-A7C0-B9A48BCEDD91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F11D46A-AEED-4EB0-A7C0-B9A48BCEDD91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F11D46A-AEED-4EB0-A7C0-B9A48BCEDD91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2538A57E-B2CA-45E1-8C70-8CDE59DCA4D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2538A57E-B2CA-45E1-8C70-8CDE59DCA4D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2538A57E-B2CA-45E1-8C70-8CDE59DCA4D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2538A57E-B2CA-45E1-8C70-8CDE59DCA4D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
